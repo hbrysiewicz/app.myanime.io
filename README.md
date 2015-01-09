@@ -16,9 +16,11 @@ You will need the following things properly installed on your computer.
 * change into the new directory
 * `npm install`
 * `bower install`
+* `npm install -g stylus`
 
 ## Running / Development
 
+* `stylus app/stylus --out app/styles -w`
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
@@ -48,3 +50,6 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## ToDo
+
+* Add stylus to the build, or get broccoli-stylus working
