@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'app-myanime-io',
+    modulePrefix: 'myanime-io',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
