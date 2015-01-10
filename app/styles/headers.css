@@ -1,0 +1,18 @@
+/* line 3, ../sass/headers.sass */
+.primary-header {
+  padding-top: 20px;
+}
+
+/* line 6, ../sass/headers.sass */
+.secondary-header {
+  -moz-box-shadow: 0 1px 0 #d6d2d1;
+  -webkit-box-shadow: 0 1px 0 #d6d2d1;
+  box-shadow: 0 1px 0 #d6d2d1;
+  background-color: #1f8dd6;
+  height: 40px;
+}
+
+/* line 11, ../sass/headers.sass */
+.authentication * {
+  margin-left: 20px;
+}

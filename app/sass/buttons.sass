@@ -1,0 +1,41 @@
+@import load
+
+%button
+  +transition-duration(.25s)
+  +transition-property(background-color)
+  border: none
+  background-color: $primary
+  text-align: center
+  color: $white
+  cursor: pointer
+  outline: none
+  &:hover
+    background-color: lighten($primary, 8%)
+  &:active
+    background-color: darken($primary, 3%)
+  &.disabled
+    +box-shadow(0 1px 0 $l-gray)
+    background-color: lighten($l-gray, 8%)
+    cursor: default
+
+@mixin button($padding, $font-size)
+  @extend %button
+  +border-radius(3px)
+  +box-shadow(0 1px 0 rgba(#3b7500, 0.5))
+  display: inline
+  padding: $padding
+  font-size: $font-size
+  &:active
+    +box-shadow(0 1px 0 #8ca671)
+  &[disabled]
+    +box-shadow(0 1px 0 $l-gray)
+    background-color: lighten($l-gray, 8%)
+    cursor: default
+
+.button--l
+  @include button(18px, 20px)
+  width: 100%
+  max-width: 290px
+
+.button--xs, .button--s
+  @include button(10px, 15px)

@@ -1,0 +1,31 @@
+/* line 3, ../sass/forms.sass */
+input[type="text"], input[type="url"], input[type="email"], input[type="password"],
+input[type="date"], input[type="time"], input[type="number"], input[type="search"],
+select, textarea, .rich-textarea_editor, .rich-textarea_linkinput, .rich-textarea_linktypeselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+}
+
+/* line 10, ../sass/forms.sass */
+textarea {
+  resize: none;
+}
+
+/* line 14, ../sass/forms.sass */
+::-webkit-input-placeholder {
+  font-style: italic;
+  color: #9e9c9c;
+}
+
+/* line 17, ../sass/forms.sass */
+::-moz-placeholder {
+  font-style: italic;
+  color: #9e9c9c;
+}
+
+/* line 20, ../sass/forms.sass */
+::-ms-input-placeholder {
+  font-style: italic;
+  color: #9e9c9c;
+}

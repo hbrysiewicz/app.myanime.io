@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('faq');
+  this.route('support');
+  this.route('register');
+  this.route('log-in');
 });
 
 export default Router;
